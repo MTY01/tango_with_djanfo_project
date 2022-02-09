@@ -239,6 +239,7 @@ def user_login(request):
 def restricted(request):
     return render(request, 'rango/restricted.html')
 
+
 # Use the login_required() decorator to ensure only those logged in can
 # access the view.
 @login_required
